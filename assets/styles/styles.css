@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
 
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Zilla Slab', sans-serif;
     font-size: 18px;
 }
 
 nav {
-    background-color: #541616;
-    color: #f7c2c2;
+    background-image: linear-gradient(rgb(214, 140, 211), rgb(255, 0, 0));
+    color: white;
     padding: 16px 32px;
 }
 
@@ -29,6 +29,11 @@ nav ul {
     margin: 0px;
     justify-content: space-between;
     padding: 0;
+}
+
+.about-me {
+    font-size: 18px;
+    
 }
 
 nav ul li {
@@ -60,6 +65,7 @@ nav ul li a {
 .contact-me ul li {
     margin-bottom: 10px;
 }
+
 
 @media (min-width: 768px){
     nav {
