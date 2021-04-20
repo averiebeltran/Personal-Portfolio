@@ -33,7 +33,6 @@ nav ul {
 
 .about-me {
     font-size: 18px;
-    
 }
 
 nav ul li {
@@ -64,6 +63,22 @@ nav ul li a {
 
 .contact-me ul li {
     margin-bottom: 10px;
+}
+
+.lab-manager-img {
+    background: url("../images/Lab-Manager.png");
+    height: 270px;
+    width: 495px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.choose-chill-img {
+    background: url("../images/choose.png");
+    height: 175px;
+    width: 470px;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 
